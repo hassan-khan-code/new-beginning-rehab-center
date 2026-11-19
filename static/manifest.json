@@ -1,7 +1,7 @@
 {
-  "name": "Dua Rehab Center CRM",
-  "short_name": "Dua CRM",
-  "description": "Hospital Management CRM System for Dua Rehab Center",
+  "name": "Modern Rehab & Psychiatric Hospital Peshawar",
+  "short_name": "Modern Rehab CRM",
+  "description": "Hospital Management CRM System for Modern Rehab & Psychiatric Hospital Peshawar",
   "start_url": "/",
   "scope": "/",
   "display": "standalone",
@@ -18,13 +18,13 @@
       "purpose": "any"
     },
     {
-      "src": "/static/logo.png",
+      "src": "/static/mrph.png",
       "sizes": "192x192",
       "type": "image/png",
       "purpose": "any maskable"
     },
     {
-      "src": "/static/logo.png",
+      "src": "/static/mrph.png",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "any maskable"
@@ -32,11 +32,11 @@
   ],
   "screenshots": [
     {
-      "src": "/static/logo.png",
+      "src": "/static/mrph.png",
       "sizes": "512x512",
       "type": "image/png",
       "form_factor": "narrow",
-      "label": "Dua Rehab Center HMS Dashboard"
+      "label": "Modern Rehab & Psychiatric Hospital Peshawar HMS Dashboard"
     }
   ],
   "shortcuts": [
@@ -45,14 +45,14 @@
       "short_name": "Dashboard",
       "description": "Go to Dashboard",
       "url": "/?view=dashboard",
-      "icons": [{ "src": "/static/favicon-96x96.png", "sizes": "96x96" }]
+      "icons": [{ "src": "/static/mrph.png", "sizes": "96x96" }]
     },
     {
       "name": "Patients",
       "short_name": "Patients",
       "description": "View Patients",
       "url": "/?view=patients",
-      "icons": [{ "src": "/static/favicon-96x96.png", "sizes": "96x96" }]
+      "icons": [{ "src": "/static/mrph.png", "sizes": "96x96" }]
     }
   ]
 }

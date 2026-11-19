@@ -102,15 +102,15 @@ def ensure_initial_admin():
         if mongo.db.users.count_documents({}) == 0:
             # Create ImranSaab as the Admin
             admin_user = {
-                'username': 'ImranSaab',
+                'username': 'adminuser',
                 'password': generate_password_hash('password123'),
                 'role': 'Admin',
-                'name': 'Imran Khan (Admin)',
+                'name': 'Demo User',
                 'email': os.environ.get('ADMIN_EMAIL', 'admin@example.com').strip().lower(),
                 'created_at': datetime.now()
             }
             mongo.db.users.insert_one(admin_user)
-            print("Initial Admin user 'ImranSaab' created.")
+            print("Initial Admin user 'Demo' created.")
 
 def create_indices():
     """Ensure essential database indices exist for performance."""
